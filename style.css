@@ -39,3 +39,59 @@ section {
     }
 
 }
+#transactionList{
+    margin-top:20px;
+}
+
+.transaction-card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    padding:15px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.right{
+    text-align:right;
+}
+
+.transaction-card button{
+    margin-top:10px;
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.transaction-card button:hover{
+    background:darkred;
+}
+#balance{
+    color:#2c3e50;
+    font-size:30px;
+    font-weight:bold;
+}
+
+#income{
+    color:green;
+    font-size:24px;
+    font-weight:bold;
+}
+
+#expenses{
+    color:red;
+    font-size:24px;
+    font-weight:bold;
+}
+.transaction-card{
+    transition:0.3s;
+}
+
+.transaction-card:hover{
+    transform:translateY(-3px);
+}
